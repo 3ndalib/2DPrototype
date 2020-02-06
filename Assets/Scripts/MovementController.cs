@@ -23,6 +23,7 @@ public class MovementController : MonoBehaviour
 
     public Vector2 Velocity;
 
+    public bool Walking;
     public bool IsMoving;
     public bool IsJumbing;
     public bool IsFalling;
@@ -51,15 +52,18 @@ public class MovementController : MonoBehaviour
         CheckingSurroundings();
         Velocity = RB.velocity;
         Movement();
+        AnimationManager();
     }
 
 
     public void CheckingSurroundings()
     {
+        IsWalking();
         IsGrounded();
         IsTouchingWall();
         IsWallSliding();
         Face();
+        Walking = IsWalking();
         Grounded = IsGrounded();
         TouchingWall = IsTouchingWall();
         WallSliding = IsWallSliding();
@@ -163,12 +167,12 @@ public class MovementController : MonoBehaviour
             IsMoving = false;
         }
 
-        if (RB.velocity.y > 0)
+        if (RB.velocity.y > 0 && !Grounded)
         {
             IsJumbing = true;
             IsFalling = false;
         }
-        else if (RB.velocity.y < 0)
+        else if (RB.velocity.y < 0 && !Grounded)
         {
             IsFalling = true;
             IsJumbing = false;
@@ -265,5 +269,25 @@ public class MovementController : MonoBehaviour
             FacingLeft = false;
         }
     }
-        
+
+    public bool IsWalking() 
+    {
+        if (Input.GetKey(KeyCode.LeftArrow) && Grounded || Input.GetKey(KeyCode.A)
+            && Grounded || Input.GetKey(KeyCode.RightArrow) && Grounded || Input.GetKey(KeyCode.D) && Grounded)
+        {
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
+    }
+
+    public void AnimationManager() 
+    {
+        Anim.SetBool("IsWalking", Walking);
+        Anim.SetBool("IsJumbing", IsJumbing);
+        Anim.SetBool("IsFalling", IsFalling);
+    }
+
 }
