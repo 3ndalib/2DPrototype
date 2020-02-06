@@ -16,6 +16,7 @@ public class MovementController : MonoBehaviour
     public float ExtraHeight;
     public float WallCheckDistance;
     public float WallSlideSpeed;
+    public float SkinWidth;
 
     public int ExtraJumbs;
     public int ExtraJumbsValue;
@@ -28,6 +29,8 @@ public class MovementController : MonoBehaviour
     public bool Grounded;
     public bool TouchingWall;
     public bool WallSliding;
+    public bool FacingRight;
+    public bool FacingLeft;
 
     public LayerMask PlatformLayerMask;
 
@@ -56,6 +59,7 @@ public class MovementController : MonoBehaviour
         IsGrounded();
         IsTouchingWall();
         IsWallSliding();
+        Face();
         Grounded = IsGrounded();
         TouchingWall = IsTouchingWall();
         WallSliding = IsWallSliding();
@@ -189,7 +193,7 @@ public class MovementController : MonoBehaviour
 
     public bool IsGrounded() 
     {
-        RaycastHit2D Hit = Physics2D.BoxCast(CC.bounds.center, CC.bounds.size, 0f, Vector2.down, ExtraHeight, PlatformLayerMask);
+        RaycastHit2D Hit = Physics2D.BoxCast(new Vector2(CC.bounds.center.x, CC.bounds.min.y),new Vector2(CC.bounds.size.x - SkinWidth , CC.bounds.size.y / 8), 0f, Vector2.down, ExtraHeight, PlatformLayerMask);
         Color RayColor;
         if (Hit.collider != null)
         {
@@ -199,15 +203,23 @@ public class MovementController : MonoBehaviour
         {
             RayColor = NotCollidingColor;
         }
-        Debug.DrawRay(CC.bounds.center + new Vector3(CC.bounds.extents.x, 0), Vector2.down * (CC.bounds.extents.y + ExtraHeight), RayColor);
-        Debug.DrawRay(CC.bounds.center - new Vector3(CC.bounds.extents.x, 0), Vector2.down * (CC.bounds.extents.y + ExtraHeight), RayColor);
-        Debug.DrawRay(CC.bounds.center - new Vector3(CC.bounds.extents.x, CC.bounds.extents.y + ExtraHeight), Vector2.right * CC.bounds.extents.x, RayColor);
+        Debug.DrawRay(new Vector3(CC.bounds.center.x, CC.bounds.min.y) + new Vector3(CC.bounds.extents.x , 0), Vector2.down * (CC.bounds.extents.y / 8 + ExtraHeight), RayColor);
+        Debug.DrawRay(new Vector3(CC.bounds.center.x, CC.bounds.min.y) - new Vector3(CC.bounds.extents.x , 0), Vector2.down * (CC.bounds.extents.y / 8 + ExtraHeight), RayColor);
+        Debug.DrawRay(new Vector3(CC.bounds.center.x, CC.bounds.min.y) - new Vector3(CC.bounds.extents.x , CC.bounds.extents.y / 8 + ExtraHeight),Vector2.right * CC.bounds.extents * 2, RayColor);
         return Hit.collider != null;
     }
 
     public bool IsTouchingWall() 
     {
-        RaycastHit2D Hit = Physics2D.Raycast(CC.bounds.center, Vector2.right, WallCheckDistance, PlatformLayerMask);
+        RaycastHit2D Hit;
+        if (FacingRight)
+        {
+            Hit = Physics2D.Raycast(CC.bounds.center, Vector2.right, WallCheckDistance, PlatformLayerMask);
+        }
+        else 
+        {
+            Hit = Physics2D.Raycast(CC.bounds.center, Vector2.left, WallCheckDistance, PlatformLayerMask);
+        }
         Color RayColor;
         if (Hit.collider != null)
         {
@@ -217,7 +229,14 @@ public class MovementController : MonoBehaviour
         {
             RayColor = NotCollidingColor;
         }
-        Debug.DrawRay(CC.bounds.center, Vector2.right * WallCheckDistance, RayColor);
+        if (FacingRight)
+        {
+            Debug.DrawRay(CC.bounds.center, Vector2.right * WallCheckDistance, RayColor);
+        }
+        else
+        {
+            Debug.DrawRay(CC.bounds.center, Vector2.left * WallCheckDistance, RayColor);
+        }
         return Hit.collider != null;
     }
 
@@ -230,6 +249,20 @@ public class MovementController : MonoBehaviour
         else 
         {
             return false;
+        }
+    }
+
+    public void Face() 
+    {
+        if (transform.eulerAngles == new Vector3(transform.rotation.x, 180))
+        {
+            FacingLeft = true;
+            FacingRight = false;
+        }
+        else 
+        {
+            FacingRight = true;
+            FacingLeft = false;
         }
     }
         
