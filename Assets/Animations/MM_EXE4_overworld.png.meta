@@ -1,0 +1,4445 @@
+fileFormatVersion: 2
+guid: 6275c4e512daa254aa181f769e84dc10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2656807219271043382
+    second: MM_EXE4_overworld_0
+  - first:
+      213: 846268753044713007
+    second: MM_EXE4_overworld_1
+  - first:
+      213: 4167081017124053746
+    second: MM_EXE4_overworld_2
+  - first:
+      213: 2990552602404866726
+    second: MM_EXE4_overworld_3
+  - first:
+      213: 2386610747798378930
+    second: MM_EXE4_overworld_4
+  - first:
+      213: 8666493708513704033
+    second: MM_EXE4_overworld_5
+  - first:
+      213: 7433739718276546043
+    second: MM_EXE4_overworld_6
+  - first:
+      213: 8187431027681083223
+    second: MM_EXE4_overworld_7
+  - first:
+      213: 6584993738048198907
+    second: MM_EXE4_overworld_8
+  - first:
+      213: -2836584191901042242
+    second: MM_EXE4_overworld_9
+  - first:
+      213: -7425455768356975581
+    second: MM_EXE4_overworld_10
+  - first:
+      213: -2814534779444228078
+    second: MM_EXE4_overworld_11
+  - first:
+      213: 2431892427868317326
+    second: MM_EXE4_overworld_12
+  - first:
+      213: 3790884648478365002
+    second: MM_EXE4_overworld_13
+  - first:
+      213: -834514624106636785
+    second: MM_EXE4_overworld_14
+  - first:
+      213: -1043160418355237228
+    second: MM_EXE4_overworld_15
+  - first:
+      213: 1155410650546819485
+    second: MM_EXE4_overworld_16
+  - first:
+      213: 4712733618715267037
+    second: MM_EXE4_overworld_17
+  - first:
+      213: 462495097099434369
+    second: MM_EXE4_overworld_18
+  - first:
+      213: -4939398071234941892
+    second: MM_EXE4_overworld_19
+  - first:
+      213: -1781924974354598224
+    second: MM_EXE4_overworld_20
+  - first:
+      213: 4161450597765198216
+    second: MM_EXE4_overworld_21
+  - first:
+      213: -4320543667113731683
+    second: MM_EXE4_overworld_22
+  - first:
+      213: -8181234151692853304
+    second: MM_EXE4_overworld_23
+  - first:
+      213: -2003872267297182334
+    second: MM_EXE4_overworld_24
+  - first:
+      213: -4311956052263790960
+    second: MM_EXE4_overworld_25
+  - first:
+      213: 3781057723105111960
+    second: MM_EXE4_overworld_26
+  - first:
+      213: -2656974241402035188
+    second: MM_EXE4_overworld_27
+  - first:
+      213: -1199167665773399438
+    second: MM_EXE4_overworld_28
+  - first:
+      213: 2931993136083930436
+    second: MM_EXE4_overworld_29
+  - first:
+      213: -3022917326926160092
+    second: MM_EXE4_overworld_30
+  - first:
+      213: -3797492749358965306
+    second: MM_EXE4_overworld_31
+  - first:
+      213: 1903888026894186632
+    second: MM_EXE4_overworld_32
+  - first:
+      213: 2374532080000172776
+    second: MM_EXE4_overworld_33
+  - first:
+      213: 7954476327360184727
+    second: MM_EXE4_overworld_34
+  - first:
+      213: -7821766934806619154
+    second: MM_EXE4_overworld_35
+  - first:
+      213: 2109302682269223124
+    second: MM_EXE4_overworld_36
+  - first:
+      213: -6502690743244264528
+    second: MM_EXE4_overworld_37
+  - first:
+      213: 6724147800931915290
+    second: MM_EXE4_overworld_38
+  - first:
+      213: -6625624434368704602
+    second: MM_EXE4_overworld_39
+  - first:
+      213: 1199794343476061882
+    second: MM_EXE4_overworld_40
+  - first:
+      213: -7100856546559687097
+    second: MM_EXE4_overworld_41
+  - first:
+      213: 604410490572971312
+    second: MM_EXE4_overworld_42
+  - first:
+      213: 870726141271449535
+    second: MM_EXE4_overworld_43
+  - first:
+      213: -8345355447646719010
+    second: MM_EXE4_overworld_44
+  - first:
+      213: -2958842367301789548
+    second: MM_EXE4_overworld_45
+  - first:
+      213: 5028408902941349103
+    second: MM_EXE4_overworld_46
+  - first:
+      213: -5333254891880509057
+    second: MM_EXE4_overworld_47
+  - first:
+      213: 1866392917471133871
+    second: MM_EXE4_overworld_48
+  - first:
+      213: -49178155232627102
+    second: MM_EXE4_overworld_49
+  - first:
+      213: 1760739339645443310
+    second: MM_EXE4_overworld_50
+  - first:
+      213: 7067038159767448180
+    second: MM_EXE4_overworld_51
+  - first:
+      213: 6826386077043333020
+    second: MM_EXE4_overworld_52
+  - first:
+      213: 8181634905713679536
+    second: MM_EXE4_overworld_53
+  - first:
+      213: 11629035239272278
+    second: MM_EXE4_overworld_54
+  - first:
+      213: -4865714621061822935
+    second: MM_EXE4_overworld_55
+  - first:
+      213: 7847769512870287109
+    second: MM_EXE4_overworld_56
+  - first:
+      213: -1113552461586501770
+    second: MM_EXE4_overworld_57
+  - first:
+      213: 2631690613662635899
+    second: MM_EXE4_overworld_58
+  - first:
+      213: 2755833655892163584
+    second: MM_EXE4_overworld_59
+  - first:
+      213: 4017343220200186805
+    second: MM_EXE4_overworld_60
+  - first:
+      213: 457444007814427222
+    second: MM_EXE4_overworld_61
+  - first:
+      213: -5100399844951233492
+    second: MM_EXE4_overworld_62
+  - first:
+      213: 6905245544008548883
+    second: MM_EXE4_overworld_63
+  - first:
+      213: 1717763887898397729
+    second: MM_EXE4_overworld_64
+  - first:
+      213: -1895005850044153197
+    second: MM_EXE4_overworld_65
+  - first:
+      213: 3057116655741592491
+    second: MM_EXE4_overworld_66
+  - first:
+      213: -603107893305523841
+    second: MM_EXE4_overworld_67
+  - first:
+      213: -1972031426965405558
+    second: MM_EXE4_overworld_68
+  - first:
+      213: -1476647498577082041
+    second: MM_EXE4_overworld_69
+  - first:
+      213: -9161941410796589277
+    second: MM_EXE4_overworld_70
+  - first:
+      213: 4628602489077515630
+    second: MM_EXE4_overworld_71
+  - first:
+      213: 3588117927971306410
+    second: MM_EXE4_overworld_72
+  - first:
+      213: 5876560988016613856
+    second: MM_EXE4_overworld_73
+  - first:
+      213: -2895395141888743842
+    second: MM_EXE4_overworld_74
+  - first:
+      213: 1664282016886361743
+    second: MM_EXE4_overworld_75
+  - first:
+      213: 8134785750761571344
+    second: MM_EXE4_overworld_76
+  - first:
+      213: -6727706542865274361
+    second: MM_EXE4_overworld_77
+  - first:
+      213: -1788035378445778870
+    second: MM_EXE4_overworld_78
+  - first:
+      213: -5231472547214114762
+    second: MM_EXE4_overworld_79
+  - first:
+      213: 4950743633370624161
+    second: MM_EXE4_overworld_80
+  - first:
+      213: 834555391965181932
+    second: MM_EXE4_overworld_81
+  - first:
+      213: -1921864649584371007
+    second: MM_EXE4_overworld_82
+  - first:
+      213: 6853745610009346018
+    second: MM_EXE4_overworld_83
+  - first:
+      213: -4324255952324822299
+    second: MM_EXE4_overworld_84
+  - first:
+      213: 5044007250167804401
+    second: MM_EXE4_overworld_85
+  - first:
+      213: -2761540172893850161
+    second: MM_EXE4_overworld_86
+  - first:
+      213: -6059882403198769553
+    second: MM_EXE4_overworld_87
+  - first:
+      213: -824685928644283976
+    second: MM_EXE4_overworld_88
+  - first:
+      213: 8393326754747849719
+    second: MM_EXE4_overworld_89
+  - first:
+      213: -4376970172646344628
+    second: MM_EXE4_overworld_90
+  - first:
+      213: -6862134077280765805
+    second: MM_EXE4_overworld_91
+  - first:
+      213: 2162821783534471057
+    second: MM_EXE4_overworld_92
+  - first:
+      213: 1435632000735997681
+    second: MM_EXE4_overworld_93
+  - first:
+      213: 2939651821160151370
+    second: MM_EXE4_overworld_94
+  - first:
+      213: -2938367280705578670
+    second: MM_EXE4_overworld_95
+  - first:
+      213: 5116569286077012043
+    second: MM_EXE4_overworld_96
+  - first:
+      213: -3606404807575158142
+    second: MM_EXE4_overworld_97
+  - first:
+      213: -8897353607304025278
+    second: MM_EXE4_overworld_98
+  - first:
+      213: 3876772159261118343
+    second: MM_EXE4_overworld_99
+  - first:
+      213: 4600856867769668029
+    second: MM_EXE4_overworld_100
+  - first:
+      213: 554377211099953274
+    second: MM_EXE4_overworld_101
+  - first:
+      213: -5923076230686318152
+    second: MM_EXE4_overworld_102
+  - first:
+      213: 8606571033797516720
+    second: MM_EXE4_overworld_103
+  - first:
+      213: -2848617542975023447
+    second: MM_EXE4_overworld_104
+  - first:
+      213: -6253235070502966048
+    second: MM_EXE4_overworld_105
+  - first:
+      213: -1508107357756434315
+    second: MM_EXE4_overworld_106
+  - first:
+      213: -4425458121422854855
+    second: MM_EXE4_overworld_107
+  - first:
+      213: -5912269886206597057
+    second: MM_EXE4_overworld_108
+  - first:
+      213: 5847169980656400477
+    second: MM_EXE4_overworld_109
+  - first:
+      213: 5811891709176940244
+    second: MM_EXE4_overworld_110
+  - first:
+      213: 7678702976234799379
+    second: MM_EXE4_overworld_111
+  - first:
+      213: -1038643691122441524
+    second: MM_EXE4_overworld_112
+  - first:
+      213: -5983378321318142884
+    second: MM_EXE4_overworld_113
+  - first:
+      213: -8905928450704109816
+    second: MM_EXE4_overworld_114
+  - first:
+      213: -862260692366370943
+    second: MM_EXE4_overworld_115
+  - first:
+      213: 7727173906073209340
+    second: MM_EXE4_overworld_116
+  - first:
+      213: -5491077541697662162
+    second: MM_EXE4_overworld_117
+  - first:
+      213: -9009867555483723308
+    second: MM_EXE4_overworld_118
+  - first:
+      213: 3789325446791319966
+    second: MM_EXE4_overworld_119
+  - first:
+      213: -2315749471395272439
+    second: MM_EXE4_overworld_120
+  - first:
+      213: -5758834483221831457
+    second: MM_EXE4_overworld_121
+  - first:
+      213: -1053523535003223060
+    second: MM_EXE4_overworld_122
+  - first:
+      213: 4439914409560382805
+    second: MM_EXE4_overworld_123
+  - first:
+      213: 407689896328498994
+    second: MM_EXE4_overworld_124
+  - first:
+      213: -1569659086795817468
+    second: MM_EXE4_overworld_125
+  - first:
+      213: -3847429640477560134
+    second: MM_EXE4_overworld_126
+  - first:
+      213: 5935784450407323288
+    second: MM_EXE4_overworld_127
+  - first:
+      213: -3966175095129399889
+    second: MM_EXE4_overworld_128
+  - first:
+      213: 2150213172427933093
+    second: MM_EXE4_overworld_129
+  - first:
+      213: 1735724697635180564
+    second: MM_EXE4_overworld_130
+  - first:
+      213: 1707322895703962536
+    second: MM_EXE4_overworld_131
+  - first:
+      213: 5354611704219583443
+    second: MM_EXE4_overworld_132
+  - first:
+      213: 6700748091438515328
+    second: MM_EXE4_overworld_133
+  - first:
+      213: -2100109257954758606
+    second: MM_EXE4_overworld_134
+  - first:
+      213: 5253065029399055941
+    second: MM_EXE4_overworld_135
+  - first:
+      213: -4726559109757447451
+    second: MM_EXE4_overworld_136
+  - first:
+      213: -1979490664158295407
+    second: MM_EXE4_overworld_137
+  - first:
+      213: -7644842529290382368
+    second: MM_EXE4_overworld_138
+  - first:
+      213: -2493764940157801309
+    second: MM_EXE4_overworld_139
+  - first:
+      213: 5774235305287226017
+    second: MM_EXE4_overworld_140
+  - first:
+      213: 698519331306797993
+    second: MM_EXE4_overworld_141
+  - first:
+      213: -7529339960395178542
+    second: MM_EXE4_overworld_142
+  - first:
+      213: 7619675859749762108
+    second: MM_EXE4_overworld_143
+  - first:
+      213: -7641901708927461822
+    second: MM_EXE4_overworld_144
+  - first:
+      213: -6506045705897884295
+    second: MM_EXE4_overworld_145
+  - first:
+      213: -4662696316953956047
+    second: MM_EXE4_overworld_146
+  - first:
+      213: 1112797560120398949
+    second: MM_EXE4_overworld_147
+  - first:
+      213: -2266518678506698652
+    second: MM_EXE4_overworld_148
+  - first:
+      213: -3061026526465807883
+    second: MM_EXE4_overworld_149
+  - first:
+      213: -4152400337882772590
+    second: MM_EXE4_overworld_150
+  - first:
+      213: 3871901939816486849
+    second: MM_EXE4_overworld_151
+  - first:
+      213: -952793537756655102
+    second: MM_EXE4_overworld_152
+  - first:
+      213: -3518994278913702879
+    second: MM_EXE4_overworld_153
+  - first:
+      213: -3409397884555680797
+    second: MM_EXE4_overworld_154
+  - first:
+      213: -7193095078076728822
+    second: MM_EXE4_overworld_155
+  - first:
+      213: 1500564041801659516
+    second: MM_EXE4_overworld_156
+  - first:
+      213: 5773081969368221469
+    second: MM_EXE4_overworld_157
+  - first:
+      213: -7579003057675748065
+    second: MM_EXE4_overworld_158
+  - first:
+      213: -2113628718398032290
+    second: MM_EXE4_overworld_159
+  - first:
+      213: 8622275701334676187
+    second: MM_EXE4_overworld_160
+  - first:
+      213: -1661611686266087688
+    second: MM_EXE4_overworld_161
+  - first:
+      213: 6183647122822446815
+    second: MM_EXE4_overworld_162
+  - first:
+      213: -7160791892416189951
+    second: MM_EXE4_overworld_163
+  - first:
+      213: -115104570985159601
+    second: MM_EXE4_overworld_164
+  - first:
+      213: -2189169776835674492
+    second: MM_EXE4_overworld_165
+  - first:
+      213: -7641910358990885676
+    second: MM_EXE4_overworld_166
+  - first:
+      213: 6829172783480721081
+    second: MM_EXE4_overworld_167
+  - first:
+      213: 8147617880679685358
+    second: MM_EXE4_overworld_168
+  - first:
+      213: -8726888090146016663
+    second: MM_EXE4_overworld_169
+  - first:
+      213: -6261636327184339978
+    second: MM_EXE4_overworld_170
+  - first:
+      213: 2239907940230187662
+    second: MM_EXE4_overworld_171
+  - first:
+      213: -1124217096164660905
+    second: MM_EXE4_overworld_172
+  - first:
+      213: 6434294610481147658
+    second: MM_EXE4_overworld_173
+  - first:
+      213: 4609429900284763018
+    second: MM_EXE4_overworld_174
+  - first:
+      213: 5796783758963372632
+    second: MM_EXE4_overworld_175
+  - first:
+      213: 3918146467099421054
+    second: MM_EXE4_overworld_176
+  - first:
+      213: 7032493005558267542
+    second: MM_EXE4_overworld_177
+  - first:
+      213: -2892220652628179766
+    second: MM_EXE4_overworld_178
+  - first:
+      213: 3708208093529881679
+    second: MM_EXE4_overworld_179
+  - first:
+      213: -3853106903932905351
+    second: MM_EXE4_overworld_180
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1112
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7c1acb699a4fd448f02b7fbe928445
+      internalID: -2656807219271043382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1112
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078382c7e3056b47a4f83a9c1bea525
+      internalID: 846268753044713007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_2
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1112
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec18692a90171b4bb3af645cfa7fd8a
+      internalID: 4167081017124053746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1112
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02c1b3c4458f274f84f49058b2b2d5f
+      internalID: 2990552602404866726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1112
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f010a19eccd77e4ab9ceab82ea9f894
+      internalID: 2386610747798378930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1073
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeabe2d0c417ebb40b47d8555e9f9aad
+      internalID: 8666493708513704033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1073
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5756f1e0866bfb44b9094d898d7a4648
+      internalID: 7433739718276546043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1073
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827bae9c9aca7ce4b9719a3e97932b2a
+      internalID: 8187431027681083223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1073
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a558f73f6f4145a2b19beafd685ec
+      internalID: 6584993738048198907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1073
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a352d659b8b8947b61c25e2a473864
+      internalID: -2836584191901042242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1073
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7d752681c55cd4489a3172081f8715
+      internalID: -7425455768356975581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1033
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e8771124cd9a643a7c5df7a9504b1c
+      internalID: -2814534779444228078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_12
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1033
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abe71c0e8c60bc49904d13a54640eaa
+      internalID: 2431892427868317326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_13
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1033
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6395bd5bf8d9a4bbbe1b3bfd3be5c1
+      internalID: 3790884648478365002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_14
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1033
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ba3857c3e131841ba861adc21c9e1b
+      internalID: -834514624106636785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1033
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8404a243d034ad4418196e76d507d4a2
+      internalID: -1043160418355237228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_16
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1033
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0683b77125459e4298f4c713473a052
+      internalID: 1155410650546819485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 993
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33221c8506808514b83290a749ab0428
+      internalID: 4712733618715267037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 993
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516879e5d8915f64893c4b504e3e44e9
+      internalID: 462495097099434369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_19
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 993
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c019c13e194db4eaa57b953d6a762a
+      internalID: -4939398071234941892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_20
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 993
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f50be40d6227044c815217903179e5b
+      internalID: -1781924974354598224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_21
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 994
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ac475f7a02e034b8747e1876c73a94
+      internalID: 4161450597765198216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_22
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 994
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbb398a7c6660c458f7c4d8cd2eaf71
+      internalID: -4320543667113731683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 954
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d854cf45f62692408a7c762f7236063
+      internalID: -8181234151692853304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_24
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 954
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26f715ef06de6240b2cda6ebfe90e8c
+      internalID: -2003872267297182334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 954
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a936281f01a7c974bb96e24f13fb4d35
+      internalID: -4311956052263790960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 954
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a107a9b4ff23bd6479b070d685fd6d00
+      internalID: 3781057723105111960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_27
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 954
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61f1960f468fc947872c38c19bc3a7c
+      internalID: -2656974241402035188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 954
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc9ef53f32870f4697f3e4e93228067
+      internalID: -1199167665773399438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_29
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 916
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038b39f8430bc8049b11f1b31483c4b1
+      internalID: 2931993136083930436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 916
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b203833d6bd9d8479e029aba4acef1b
+      internalID: -3022917326926160092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_31
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 916
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019441574050a8042aaa269903d7e71e
+      internalID: -3797492749358965306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_32
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 916
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8066c5fd96d54594e9131b371635e2ef
+      internalID: 1903888026894186632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 916
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b18fe839d9c884da43a4aabb72e105
+      internalID: 2374532080000172776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_34
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 916
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14549a6b8fe0814f906b000e7fd33b8
+      internalID: 7954476327360184727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_35
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 878
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e00ebfff6e157854a97b354acc19d1ea
+      internalID: -7821766934806619154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 877
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a3b8d629a6d0747b0508131bd5129b
+      internalID: 2109302682269223124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_37
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 877
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c1ec6f3c709cc49907c49de151158a
+      internalID: -6502690743244264528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_38
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 877
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bbe9dfffe3a0d49a7f9d05ff68918e
+      internalID: 6724147800931915290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_39
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 743
+        width: 4
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5937faaa328faab43ad930a875cc74d2
+      internalID: -6625624434368704602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_40
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 743
+        width: 8
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2619c0a16a10447a9c4b839c0c6a4e
+      internalID: 1199794343476061882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_41
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 743
+        width: 8
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74063ed8c0abc640915f0e2c712ee5c
+      internalID: -7100856546559687097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 743
+        width: 8
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e352ca186e1b46ad0ea5417526857
+      internalID: 604410490572971312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_43
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 743
+        width: 8
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b35b82164fbef448aea2c23ebf3473c
+      internalID: 870726141271449535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_44
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 695
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825ea823fcb11e44f8ebe130dfc3d7f9
+      internalID: -8345355447646719010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_45
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 743
+        width: 4
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3361a25455ad3c4a8f7b108db120de1
+      internalID: -2958842367301789548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_46
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 727
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6fd04f9bf97d34ea14f3505d287d4d
+      internalID: 5028408902941349103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_47
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 722
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae4af404ec46cf40b925c1e2a2ce55a
+      internalID: -5333254891880509057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_48
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 718
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4228d492ad65845916b1c2f1f3c145
+      internalID: 1866392917471133871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_49
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 713
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073bfe74749f7f5469273a32e7c482c4
+      internalID: -49178155232627102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_50
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 697
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755215c4553ed3540a5cb50fa7b24b42
+      internalID: 1760739339645443310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_51
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 693
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540f658d77d3ad14b8a97cbf5dca0a07
+      internalID: 7067038159767448180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_52
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 703
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6facd2e0aff84faab5f0a47168afb
+      internalID: 6826386077043333020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_53
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 703
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d13ffb28764bf846a628d4834c366e7
+      internalID: 8181634905713679536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_54
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 703
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339edb2820c55cb419b95b8116dcca48
+      internalID: 11629035239272278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 701
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf36c371013812a429a0150da3e6e6e7
+      internalID: -4865714621061822935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_56
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 640
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88bdec5ab51a6c4baf419fa9c0e3fd0
+      internalID: 7847769512870287109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_57
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 639
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3d968791cdae242b52061328326c28
+      internalID: -1113552461586501770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 640
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d203a6d416b1d547a3a51c29ddb72fe
+      internalID: 2631690613662635899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_59
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 639
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf17ab7fd261964585143be35664f5b
+      internalID: 2755833655892163584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_60
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 651
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a0bbb77e9f1b64ea9fa10c8962131f
+      internalID: 4017343220200186805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_61
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 651
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102a1febda9e4ad498d2a5216e1b1425
+      internalID: 457444007814427222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_62
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 651
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d97cadbb45287246b78a9a6e290873e
+      internalID: -5100399844951233492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_63
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 596
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ed0680f9b935247b0eca07cb86bc6b
+      internalID: 6905245544008548883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_64
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 596
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adc495c723bccd409a94d16e7f70ded
+      internalID: 1717763887898397729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_65
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 596
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a417fa061050747908523931612c93
+      internalID: -1895005850044153197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_66
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 596
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf1175efaa5cd14cb079c25216fbc45
+      internalID: 3057116655741592491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_67
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 556
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5ef731abda4a241ba3dbf559c133ab
+      internalID: -603107893305523841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 556
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce32b51871ba6443b36c453c52086e4
+      internalID: -1972031426965405558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_69
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 556
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531c49c2c9347a24395b267e05d22783
+      internalID: -1476647498577082041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_70
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 556
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8780fedab4ad85c4c936decfb6601c96
+      internalID: -9161941410796589277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_71
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 556
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e46ee610d4b4447afc71a536fdf325
+      internalID: 4628602489077515630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_72
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 556
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6a52cf69be1d9478568298c32f1e30
+      internalID: 3588117927971306410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 515
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd45848eb4019fe4ebddcdb04f7d1eb6
+      internalID: 5876560988016613856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_74
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 515
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddbb51323ef9c34da7ade4ed5c44ee2
+      internalID: -2895395141888743842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_75
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 515
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaf2a7376dc73d4f8fe4fec4f109dd7
+      internalID: 1664282016886361743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_76
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 541
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6053e396fcd224fa641205b912fb66
+      internalID: 8134785750761571344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_77
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 515
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04bbca710d6e1542b60ee42427caf28
+      internalID: -6727706542865274361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_78
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 515
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b869c56fad297a47987c795597378b9
+      internalID: -1788035378445778870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_79
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 515
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f604a6ed6ef3524280ec38d5eb162c7
+      internalID: -5231472547214114762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 515
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b116f6d3d079d4d84e1867d90145c2
+      internalID: 4950743633370624161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_81
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 515
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997ecea7ca0d62a4a8696dba46a12ec0
+      internalID: 834555391965181932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_82
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 515
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510aab8b6c432a2498bddf1e326d3946
+      internalID: -1921864649584371007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_83
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 515
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f47f6ce4794f8c4299dc97f7355e595
+      internalID: 6853745610009346018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_84
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 512
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e9b7b6e53e4c4bbdfa50e3f2e6c9a
+      internalID: -4324255952324822299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_85
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 533
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4f42c4b15d7594eb1e8da01c9ae149
+      internalID: 5044007250167804401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_86
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 475
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb00f56e6674e74aa414e26a9b52b6b
+      internalID: -2761540172893850161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_87
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 469
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6152922ffc0fe5c43adbcf952bd1f6c4
+      internalID: -6059882403198769553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_88
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 467
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037defe9f9f3d8145ac99ec865a4125e
+      internalID: -824685928644283976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_89
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 467
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7049963ce9f4ccc408f3ca54f7250f6d
+      internalID: 8393326754747849719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 473
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cd539d8ad7fc34a928f742f3febb28
+      internalID: -4376970172646344628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_91
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 479
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd2710e8a25e074f823971934aac51b
+      internalID: -6862134077280765805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_92
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 479
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6e006fb6c3c0d4a8d86f38410f7271
+      internalID: 2162821783534471057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_93
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 427
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ec5d7432aaac4883c507e4c3b193a
+      internalID: 1435632000735997681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 425
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6494a2b8dcccfd841bbb8dbda3866631
+      internalID: 2939651821160151370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_95
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 426
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f4e1d839518204493f14082774df2a
+      internalID: -2938367280705578670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_96
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 423
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cbdace5ae17624e96e5646335c9ee7
+      internalID: 5116569286077012043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_97
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 423
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b133199f153c6c942b6f98250e9c525e
+      internalID: -3606404807575158142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_98
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 423
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601611c7586cb154390d198558444fd4
+      internalID: -8897353607304025278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_99
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 410
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1700c069d8ae3f9448f54c8b4739b224
+      internalID: 3876772159261118343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_100
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 410
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1945a5bfd88081c449adabbf5bfd898f
+      internalID: 4600856867769668029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_101
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 410
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939bd024d94ce3a4f93b89d6eb385372
+      internalID: 554377211099953274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_102
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 410
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e2d464fc53c514aa12a8ce8d4322e0
+      internalID: -5923076230686318152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_103
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 371
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacee7dc8cbfc734cb68c6cb60b04946
+      internalID: 8606571033797516720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_104
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 371
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8b77c72cf3d44eaed178ac8f7b2a6
+      internalID: -2848617542975023447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_105
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 371
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbfb168b4aee9df45a0cea27cdb2d626
+      internalID: -6253235070502966048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_106
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 371
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62bb1a208f75974e9b5ff00b22e550a
+      internalID: -1508107357756434315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_107
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 371
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12969aebfcfa39a4f97ac90935d06931
+      internalID: -4425458121422854855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_108
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 371
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99550dc1f0a11a34189494a5ef68f226
+      internalID: -5912269886206597057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_109
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 371
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8beca8e082459b342a3507ca2bfee431
+      internalID: 5847169980656400477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_110
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 371
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284a274a7325d2742ae5ff140ebf4579
+      internalID: 5811891709176940244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_111
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 371
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6c1d7835c784840b2d741be46ae656
+      internalID: 7678702976234799379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_112
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 328
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af52e26ec9c7ae743b7b6e24915e51a8
+      internalID: -1038643691122441524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_113
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 328
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf45455a0a3719446822a12b019b0c3b
+      internalID: -5983378321318142884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_114
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 328
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa244dc428887341a0845d6401b8c7d
+      internalID: -8905928450704109816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 328
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9f28cd39779474ab8740922eb37abe
+      internalID: -862260692366370943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_116
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 344
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcab69cd9a82a144a88e84f5fc43c96
+      internalID: 7727173906073209340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_117
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 328
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed81439e054c9340a720df1a9d080f4
+      internalID: -5491077541697662162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_118
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 290
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899357c04e44b746a8f4871b216b467
+      internalID: -9009867555483723308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_119
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 292
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa4cd2c1032fa44cb092028cebe7541
+      internalID: 3789325446791319966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_120
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 281
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80be9a68b2205ad4fb4be076bfe11479
+      internalID: -2315749471395272439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_121
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 279
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7791a15512dec00428e64a298be231ae
+      internalID: -5758834483221831457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_122
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 279
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0ec183b15078b43a91ab85d0d13b93
+      internalID: -1053523535003223060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_123
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 279
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3a50d759e50e14eaffdccd9ce657ed
+      internalID: 4439914409560382805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_124
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 277
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a953c1b5f9fe1479aa816fb2e1123e
+      internalID: 407689896328498994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_125
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 277
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d8b35ee9d420a4594cd4b352834e16
+      internalID: -1569659086795817468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_126
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 284
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f62b3774903d45afb4c109164cc16
+      internalID: -3847429640477560134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_127
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 284
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3bf00c19289984db57493f2fd2ae65
+      internalID: 5935784450407323288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_128
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 236
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a005f42c106d7349b4bdc4c471e2bd1
+      internalID: -3966175095129399889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_129
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 236
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a297b044eb885449feeb26b6098d7c
+      internalID: 2150213172427933093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_130
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 236
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89e9700677828446ba6592f1cdcc918
+      internalID: 1735724697635180564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_131
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 236
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a0b9979a43c447b057bd78ea417a5
+      internalID: 1707322895703962536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_132
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 236
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b2343471fa0ca468344f1fd86eaf2d
+      internalID: 5354611704219583443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_133
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 235
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2580469bc2f81c140b740ef99766e590
+      internalID: 6700748091438515328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_134
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 235
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8116e281a2002704abb0e1806d830a47
+      internalID: -2100109257954758606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_135
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 181
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77d1465dae574f47b36db7bfb836e76
+      internalID: 5253065029399055941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_136
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 181
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ec764180b504945b58cc4934a75c04
+      internalID: -4726559109757447451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_137
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 181
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec3edc36effe3c44843fc3ec0eb5b03
+      internalID: -1979490664158295407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_138
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 181
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db7e3a60fa3b3c54c8ff8218166cbeef
+      internalID: -7644842529290382368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_139
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 181
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feef5be46a6de8478c772256d3487bd
+      internalID: -2493764940157801309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_140
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 181
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67343c92d92420c4e88f21859b8d450a
+      internalID: 5774235305287226017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_141
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 181
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2c76e826768e747a0d16288b5e2494
+      internalID: 698519331306797993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_142
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 181
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b0570594908b54ea7f8ff248e2fb5f
+      internalID: -7529339960395178542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_143
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 181
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e2b802ba919249ad5e3046d10cf86
+      internalID: 7619675859749762108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_144
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 181
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d5f0c10f816b941921e97d04a3d6e4
+      internalID: -7641901708927461822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_145
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 139
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17173e23962a3d4fba796d546091169
+      internalID: -6506045705897884295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_146
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 139
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f806b6ee37e24a4e80598150cb19f13
+      internalID: -4662696316953956047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_147
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 139
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0b035e7b151af4cb1f15690d5d28d5
+      internalID: 1112797560120398949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_148
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12576ae91c53a2439dda7538c2bcc06
+      internalID: -2266518678506698652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_149
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 139
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf9242f3f434384781344721db291f3
+      internalID: -3061026526465807883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_150
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 137
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0009b15a206582d45a8b81dd74b1ece2
+      internalID: -4152400337882772590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_151
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 137
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6cc110544e77f4baa7bcdb9a4fc83a
+      internalID: 3871901939816486849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_152
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 139
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb263b9fbbc8a974d8e5332d684c3cb4
+      internalID: -952793537756655102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_153
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 87
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddcf78dcd6cc9a47b4d330403827b8e
+      internalID: -3518994278913702879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_154
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 87
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c44d886e37bda4f9d3e5ab7c61e388
+      internalID: -3409397884555680797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_155
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 87
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff163045c854faa4b8c907e951ff289d
+      internalID: -7193095078076728822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_156
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 87
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7b4526b28fc2f45a211974ddf7189f
+      internalID: 1500564041801659516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_157
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 87
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc364e651f95174c98c1c93009bd959
+      internalID: 5773081969368221469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_158
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 87
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a0e3ff05319124ba209b7513fb3b9b
+      internalID: -7579003057675748065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_159
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d853b8a3451204a9f163ac25d6d3d2
+      internalID: -2113628718398032290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_160
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 87
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b71638d64d041b43a3dfae42188dd74
+      internalID: 8622275701334676187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_161
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 87
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ffd1f3773878043b544de69599427d
+      internalID: -1661611686266087688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_162
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 87
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c513a8165b75eb248b4b243a25e89570
+      internalID: 6183647122822446815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_163
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 87
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab9cb927d498a949bf7d0dccfc10306
+      internalID: -7160791892416189951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_164
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 44
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65358fab444e64e45a1955e1e3d92299
+      internalID: -115104570985159601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_165
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 44
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc1169f013835b448930daa2057a5a5
+      internalID: -2189169776835674492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_166
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 44
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473e64aa0288a3d4e998d9ebec8f3aa9
+      internalID: -7641910358990885676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_167
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 44
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb2bb9cec2cf2448ab1313c0aa40f9d
+      internalID: 6829172783480721081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_168
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 44
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e959a27f3b4bf4f90788eb9ed1c0cd
+      internalID: 8147617880679685358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_169
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 44
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7e891cdd0ff2e40a03548121d1e46b
+      internalID: -8726888090146016663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_170
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a12f20cf146f4a8be7f7cad04e68d
+      internalID: -6261636327184339978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_171
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95799d9bb7701a947ae6e7c8d5e7019b
+      internalID: 2239907940230187662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_172
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a621f7ebe121704389046f685a8e30f
+      internalID: -1124217096164660905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_173
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36b7aea7904d60409e289ca79ab01c9
+      internalID: 6434294610481147658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_174
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8039986db8f10aa428d50d1a5a26dba6
+      internalID: 4609429900284763018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_175
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02995d251f6e954d93b0d3155d85e42
+      internalID: 5796783758963372632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_176
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a3efd890c10ba4db71a5302d9a35cb
+      internalID: 3918146467099421054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_177
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 4
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b993eac38a34442aa7bec69e149567
+      internalID: 7032493005558267542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_178
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 5
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b521e07fb3a30848a516ddf6152a6cd
+      internalID: -2892220652628179766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_179
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 5
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8035281ffddff42aa0a8e5554fc932
+      internalID: 3708208093529881679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MM_EXE4_overworld_180
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 5
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2709fadea91d6ac4081468453f1b6749
+      internalID: -3853106903932905351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7aa2d3e88e4af8f4f905c8efd6a905ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
