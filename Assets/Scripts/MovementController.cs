@@ -13,6 +13,8 @@ public class MovementController : MonoBehaviour
     public float Acceleration;
     public float Deceleration;
     public float JumpForce;
+    public float WallHopForce;
+    public float WallJumbForce;
     public float ExtraHeight;
     public float WallCheckDistance;
     public float WallSlideSpeed;
@@ -23,6 +25,7 @@ public class MovementController : MonoBehaviour
 
     public Vector2 Velocity;
 
+    public bool Done = false;
     public bool Walking;
     public bool IsMoving;
     public bool IsJumbing;
@@ -49,10 +52,13 @@ public class MovementController : MonoBehaviour
 
     private void Update()
     {
+        
+    }
+    private void FixedUpdate()
+    {
         CheckingSurroundings();
         Velocity = RB.velocity;
         Movement();
-        AnimationManager();
     }
 
 
@@ -63,6 +69,7 @@ public class MovementController : MonoBehaviour
         IsTouchingWall();
         IsWallSliding();
         Face();
+        FacingDirection();
         Walking = IsWalking();
         Grounded = IsGrounded();
         TouchingWall = IsTouchingWall();
@@ -77,6 +84,7 @@ public class MovementController : MonoBehaviour
         JumbCap();
         MoveCheck();
         WallSlide();
+        WallJumb();
     }
 
     void Move()
@@ -140,6 +148,27 @@ public class MovementController : MonoBehaviour
         else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             RB.velocity = new Vector2(RB.velocity.x, RB.velocity.y + (-JumpForce * Time.deltaTime));
+        }
+    }
+    void WallJumb() 
+    {
+        if (IsTouchingWall() && !IsGrounded()) 
+        {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) 
+            {
+                if (WallSliding)
+                {
+                    RB.AddForce(FacingDirection() * WallHopForce, ForceMode2D.Impulse);
+                }
+                if (Input.GetKeyDown(KeyCode.A))
+                {
+                    RB.velocity += new Vector2(-1, 1) * WallJumbForce;
+                }
+                if (Input.GetKeyDown(KeyCode.D))
+                {
+                    RB.velocity += new Vector2(1, 1) * WallJumbForce;
+                }
+            }                
         }
     }
 
@@ -269,6 +298,17 @@ public class MovementController : MonoBehaviour
             FacingLeft = false;
         }
     }
+    public Vector2 FacingDirection() 
+    {
+        if (FacingRight)
+        {
+            return new Vector2(-1f, 0);
+        }
+        else 
+        {
+            return new Vector2(1f, 0);
+        }
+    }
 
     public bool IsWalking() 
     {
@@ -282,12 +322,4 @@ public class MovementController : MonoBehaviour
             return false;
         }
     }
-
-    public void AnimationManager() 
-    {
-        Anim.SetBool("IsWalking", Walking);
-        Anim.SetBool("IsJumbing", IsJumbing);
-        Anim.SetBool("IsFalling", IsFalling);
-    }
-
 }
