@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     public float Acceleration;
     public float Deceleration;
     public float JumpForce;
+    public float WallSlideSpeed;
 
     public int ExtraJumpsValue;
     public int ExtraJumps;
@@ -45,10 +46,10 @@ public class PlayerController : MonoBehaviour
     public void Movement()
     {
         Move();
-        Jump();
+        //Jump();
         MoveCap();
         JumbCap();
-
+        WallSlide();
     }
 
     public void Move()
@@ -121,6 +122,17 @@ public class PlayerController : MonoBehaviour
         if (SR.Grounded)
         {
             ExtraJumps = ExtraJumpsValue;
+        }
+    }
+
+    public void WallSlide()
+    {
+        if (SR.WallSliding)
+        {
+            if (RB.velocity.y < -WallSlideSpeed)
+            {
+                RB.velocity = new Vector2(RB.velocity.x, -WallSlideSpeed);
+            }
         }
     }
 }

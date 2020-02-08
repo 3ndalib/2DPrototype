@@ -11,9 +11,12 @@ public class Surroundings : MonoBehaviour
     public bool FacingLeft = false;
     public bool Grounded;
     public bool Walking;
+    public bool TouchingWall;
+    public bool WallSliding;
 
     public float ExtraHeight;
     public float SkinWidth;
+    public float WallCheckDistance;
 
     public Color CollidingColor;
     public Color NotCollidingColor;
@@ -35,8 +38,12 @@ public class Surroundings : MonoBehaviour
     {
         Flip();
         IsWalking();
+        IsTouchingWall();
+        IsWallSliding();
         Grounded = IsGrounded();
         Walking = IsWalking();
+        TouchingWall = IsTouchingWall();
+        WallSliding = IsWallSliding();
     }
 
     public void CheckMovementDirection() 
@@ -81,6 +88,49 @@ public class Surroundings : MonoBehaviour
         Debug.DrawRay(new Vector3(BC.bounds.center.x, BC.bounds.min.y) - new Vector3(BC.bounds.extents.x, 0), Vector2.down * (BC.bounds.extents.y / 8 + ExtraHeight), RayColor);
         Debug.DrawRay(new Vector3(BC.bounds.center.x, BC.bounds.min.y) - new Vector3(BC.bounds.extents.x, BC.bounds.extents.y / 8 + ExtraHeight), Vector2.right * BC.bounds.extents * 2, RayColor);
         return Hit.collider != null;
+    }
+
+    public bool IsTouchingWall()
+    {
+        RaycastHit2D Hit;
+        if (FacingRight)
+        {
+            Hit = Physics2D.Raycast(BC.bounds.center, Vector2.right, WallCheckDistance, PlatformLayerMask);
+        }
+        else
+        {
+            Hit = Physics2D.Raycast(BC.bounds.center, Vector2.left, WallCheckDistance, PlatformLayerMask);
+        }
+        Color RayColor;
+        if (Hit.collider != null)
+        {
+            RayColor = CollidingColor;
+        }
+        else
+        {
+            RayColor = NotCollidingColor;
+        }
+        if (FacingRight)
+        {
+            Debug.DrawRay(BC.bounds.center, Vector2.right * WallCheckDistance, RayColor);
+        }
+        else
+        {
+            Debug.DrawRay(BC.bounds.center, Vector2.left * WallCheckDistance, RayColor);
+        }
+        return Hit.collider != null;
+    }
+
+    public bool IsWallSliding()
+    {
+        if (TouchingWall && !Grounded && PC.RB.velocity.y < 0)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     public bool IsWalking()

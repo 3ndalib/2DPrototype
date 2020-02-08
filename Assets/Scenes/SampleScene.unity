@@ -406,6 +406,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2faba1a199ce0f849a866e22452065b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Anim: {fileID: 0}
+  SR: {fileID: 0}
+  PC: {fileID: 0}
+  Walking: 0
+  Grounded: 0
+  YVelocity: 0
 --- !u!50 &255839219
 Rigidbody2D:
   serializedVersion: 4
@@ -541,6 +547,7 @@ MonoBehaviour:
   Acceleration: 1
   Deceleration: 1
   JumpForce: 7
+  WallSlideSpeed: 2
   ExtraJumpsValue: 1
   ExtraJumps: 0
 --- !u!114 &255839224
@@ -560,8 +567,12 @@ MonoBehaviour:
   FacingRight: 1
   FacingLeft: 0
   Grounded: 0
+  Walking: 0
+  TouchingWall: 0
+  WallSliding: 0
   ExtraHeight: 0.1
-  SkinWidth: 0.2
+  SkinWidth: 0.1
+  WallCheckDistance: 0.5
   CollidingColor: {r: 0.07539296, g: 1, b: 0, a: 1}
   NotCollidingColor: {r: 1, g: 0, b: 0, a: 1}
   PlatformLayerMask:
