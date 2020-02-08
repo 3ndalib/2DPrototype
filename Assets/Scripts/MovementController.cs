@@ -5,7 +5,6 @@ using UnityEngine;
 public class MovementController : MonoBehaviour
 {
     public Rigidbody2D RB;
-    public Camera Cam;
     public Animator Anim;
     public BoxCollider2D CC;
 
@@ -45,7 +44,6 @@ public class MovementController : MonoBehaviour
     {
         ExtraJumbs = ExtraJumbsValue;
         RB = GetComponent<Rigidbody2D>();
-        Cam = Camera.main;
         Anim = GetComponent<Animator>();
         CC = GetComponent<BoxCollider2D>();
     }
