@@ -65,35 +65,36 @@ public class PlayerController : MonoBehaviour
 
     public void Move()
     {
-        if (MovementInputDirection > 0)
-        {
-            RB.velocity = new Vector2(RB.velocity.x + (MaxSpeed * Acceleration * Time.deltaTime), RB.velocity.y);
-        }
-        else if (MovementInputDirection < 0)
-        {
-            RB.velocity = new Vector2(RB.velocity.x + (-MaxSpeed * Acceleration * Time.deltaTime), RB.velocity.y);
-        }
-        else
-        {
-            if (RB.velocity.x > 0)
+        if (SR.Grounded) {
+            if (MovementInputDirection > 0)
             {
-                RB.velocity = new Vector2(RB.velocity.x - (MaxSpeed * Deceleration * Time.deltaTime), RB.velocity.y);
-                if (RB.velocity.x <= 0)
-                {
-                    RB.velocity = new Vector2(0, RB.velocity.y);
-                }
+                RB.velocity = new Vector2(RB.velocity.x + (MaxSpeed * Acceleration * Time.deltaTime), RB.velocity.y);
             }
-            else if (RB.velocity.x < 0)
+            else if (MovementInputDirection < 0)
             {
-                RB.velocity = new Vector2(RB.velocity.x + (MaxSpeed * Deceleration * Time.deltaTime), RB.velocity.y);
-                if (RB.velocity.x >= 0)
-                {
-                    RB.velocity = new Vector2(0, RB.velocity.y);
-                }
+                RB.velocity = new Vector2(RB.velocity.x + (-MaxSpeed * Acceleration * Time.deltaTime), RB.velocity.y);
             }
+            else
+            {
+                if (RB.velocity.x > 0)
+                {
+                    RB.velocity = new Vector2(RB.velocity.x - (MaxSpeed * Deceleration * Time.deltaTime), RB.velocity.y);
+                    if (RB.velocity.x <= 0)
+                    {
+                        RB.velocity = new Vector2(0, RB.velocity.y);
+                    }
+                }
+                else if (RB.velocity.x < 0)
+                {
+                    RB.velocity = new Vector2(RB.velocity.x + (MaxSpeed * Deceleration * Time.deltaTime), RB.velocity.y);
+                    if (RB.velocity.x >= 0)
+                    {
+                        RB.velocity = new Vector2(0, RB.velocity.y);
+                    }
+                }
 
+            }
         }
-
     }
 
     public void Jump()

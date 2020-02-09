@@ -8,7 +8,6 @@ public class Surroundings : MonoBehaviour
     public BoxCollider2D BC;
 
     public bool FacingRight = true;
-    public bool FacingLeft = false;
     public bool Grounded;
     public bool Walking;
     public bool CanJump;
@@ -39,7 +38,7 @@ public class Surroundings : MonoBehaviour
 
     public void CheckingSurroundings() 
     {
-        Flip();
+        CheckMovementDirection();
         IsWalking();
         CheckIfCanJump();
         IsTouchingWall();
@@ -53,31 +52,21 @@ public class Surroundings : MonoBehaviour
 
     public void CheckMovementDirection() 
     {
-        if (PC.MovementInputDirection > 0)
+        if (FacingRight && PC.MovementInputDirection < 0)
         {
-            FacingRight = true;
-            FacingLeft = false;
+            Flip();
         }
-        else if (PC.MovementInputDirection < 0) 
+        else if (!FacingRight && PC.MovementInputDirection > 0) 
         {
-            FacingLeft = true;
-            FacingRight = false;
+            Flip();
         }
     }
     public void Flip() 
     {
-        if (!WallSliding) 
+        if (!WallSliding)
         {
-            FacingDirection *= -1;
-        }
-        CheckMovementDirection();
-        if (FacingRight)
-        {
-            transform.eulerAngles = new Vector3(0, 0);
-        }
-        else if (FacingLeft) 
-        {
-            transform.eulerAngles = new Vector3(0, 180);
+            FacingRight = !FacingRight;
+            transform.Rotate(0, 180, 0);
         }
     }
 
