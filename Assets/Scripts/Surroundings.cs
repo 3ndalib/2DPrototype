@@ -65,6 +65,7 @@ public class Surroundings : MonoBehaviour
     {
         if (!WallSliding)
         {
+            FacingDirection *= -1;
             FacingRight = !FacingRight;
             transform.Rotate(0, 180, 0);
         }
@@ -90,7 +91,7 @@ public class Surroundings : MonoBehaviour
 
     public void CheckIfCanJump() 
     {
-        if (Grounded && PC.RB.velocity.y <= 0)
+        if ((Grounded && PC.RB.velocity.y <= 0) || WallSliding)
         {
             PC.JumpsAmountLeft = PC.JumpsAmount;
         }

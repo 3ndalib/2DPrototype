@@ -19,6 +19,9 @@ public class PlayerController : MonoBehaviour
     public float WallSlideSpeed;
     public float WallHopForce;
     public float WallJumpForce;
+    public float AirMovementForce;
+    public float AirDragMultiplier;
+    public float JumpHeightMultiplier = 0.5f;
 
     public int JumpsAmount;
     public int JumpsAmountLeft;
@@ -29,8 +32,8 @@ public class PlayerController : MonoBehaviour
         RB = GetComponent<Rigidbody2D>();
         SR = GetComponent<Surroundings>();
 
-        WallHopDirection.Normalize();
-        WallJumpDirection.Normalize();
+        //WallHopDirection.Normalize();
+        //WallJumpDirection.Normalize();
     }
 
     // Update is called once per frame
@@ -51,6 +54,10 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
         {
             Jump();   
+        }
+        if (Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.W))
+        {
+            RB.velocity = new Vector2(RB.velocity.x, RB.velocity.y * JumpHeightMultiplier);
         }
     }
 
@@ -95,14 +102,37 @@ public class PlayerController : MonoBehaviour
 
             }
         }
+        else if (!SR.Grounded && !SR.WallSliding && MovementInputDirection != 0)
+        {
+            Vector2 ForceToAdd = new Vector2(AirMovementForce * MovementInputDirection, 0);
+            RB.AddForce(ForceToAdd, ForceMode2D.Impulse);
+        }
+        else if (!SR.Grounded && !SR.WallSliding && MovementInputDirection == 0) 
+        {
+            RB.velocity = new Vector2(RB.velocity.x * AirDragMultiplier, RB.velocity.y);
+        }
     }
 
     public void Jump()
     {
-        if (SR.CanJump) 
+        if (SR.CanJump && !SR.WallSliding)
         {
             RB.velocity = new Vector2(RB.velocity.x, JumpForce);
             JumpsAmountLeft--;
+        }
+        else if (SR.WallSliding && MovementInputDirection == 0 && SR.CanJump)
+        {
+            SR.WallSliding = false;
+            JumpsAmountLeft--;
+            Vector2 ForceToAdd = new Vector2(WallHopForce * WallHopDirection.x * -SR.FacingDirection, WallHopForce * WallHopDirection.y);
+            RB.AddForce(ForceToAdd, ForceMode2D.Impulse);
+        }
+        else if ((SR.WallSliding || SR.TouchingWall) && MovementInputDirection != 0 && SR.CanJump)
+        {
+            SR.WallSliding = false;
+            JumpsAmountLeft--;
+            Vector2 ForceToAdd = new Vector2(WallJumpForce * WallJumpDirection.x * MovementInputDirection, WallJumpForce * WallJumpDirection.y);
+            RB.AddForce(ForceToAdd, ForceMode2D.Impulse);
         }
     }
 
