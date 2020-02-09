@@ -8,6 +8,8 @@ public class PlayerController : MonoBehaviour
     public Surroundings SR;
 
     public Vector2 Velocity;
+    public Vector2 WallHopDirection;
+    public Vector2 WallJumpDirection;
 
     public float MovementInputDirection;
     public float MaxSpeed;
@@ -15,13 +17,20 @@ public class PlayerController : MonoBehaviour
     public float Deceleration;
     public float JumpForce;
     public float WallSlideSpeed;
+    public float WallHopForce;
+    public float WallJumpForce;
 
-    public int ExtraJumpsValue;
-    public int ExtraJumps;
+    public int JumpsAmount;
+    public int JumpsAmountLeft;
+
     void Start()
     {
+        JumpsAmountLeft = JumpsAmount;
         RB = GetComponent<Rigidbody2D>();
         SR = GetComponent<Surroundings>();
+
+        WallHopDirection.Normalize();
+        WallJumpDirection.Normalize();
     }
 
     // Update is called once per frame
@@ -39,14 +48,16 @@ public class PlayerController : MonoBehaviour
     public void CheckingInput()
     {
         MovementInputDirection = Input.GetAxisRaw("Horizontal");
-        Jump();
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+        {
+            Jump();   
+        }
     }
 
 
     public void Movement()
     {
         Move();
-        //Jump();
         MoveCap();
         JumbCap();
         WallSlide();
@@ -87,21 +98,10 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))
+        if (SR.CanJump) 
         {
-            if (ExtraJumps > 0)
-            {
-                RB.velocity = new Vector2(RB.velocity.x, JumpForce);
-                ExtraJumps--;
-            }
-            else if (ExtraJumps == 0 && SR.Grounded)
-            {
-                RB.velocity = new Vector2(RB.velocity.x, JumpForce);
-            }
-        }
-        else if (Input.GetKeyDown(KeyCode.S))
-        {
-            RB.velocity = new Vector2(RB.velocity.x, RB.velocity.y + (-JumpForce * Time.deltaTime));
+            RB.velocity = new Vector2(RB.velocity.x, JumpForce);
+            JumpsAmountLeft--;
         }
     }
 
@@ -119,9 +119,9 @@ public class PlayerController : MonoBehaviour
 
     void JumbCap()
     {
-        if (SR.Grounded)
+        if (Input.GetKeyDown(KeyCode.S))
         {
-            ExtraJumps = ExtraJumpsValue;
+            RB.velocity = new Vector2(RB.velocity.x, RB.velocity.y + (-JumpForce * Time.deltaTime));
         }
     }
 

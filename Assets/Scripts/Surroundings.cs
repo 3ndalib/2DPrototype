@@ -11,12 +11,15 @@ public class Surroundings : MonoBehaviour
     public bool FacingLeft = false;
     public bool Grounded;
     public bool Walking;
+    public bool CanJump;
     public bool TouchingWall;
     public bool WallSliding;
 
     public float ExtraHeight;
     public float SkinWidth;
     public float WallCheckDistance;
+
+    public int FacingDirection = 1;
 
     public Color CollidingColor;
     public Color NotCollidingColor;
@@ -38,8 +41,10 @@ public class Surroundings : MonoBehaviour
     {
         Flip();
         IsWalking();
+        CheckIfCanJump();
         IsTouchingWall();
         IsWallSliding();
+        CheckIfCanJump();
         Grounded = IsGrounded();
         Walking = IsWalking();
         TouchingWall = IsTouchingWall();
@@ -61,6 +66,10 @@ public class Surroundings : MonoBehaviour
     }
     public void Flip() 
     {
+        if (!WallSliding) 
+        {
+            FacingDirection *= -1;
+        }
         CheckMovementDirection();
         if (FacingRight)
         {
@@ -88,6 +97,22 @@ public class Surroundings : MonoBehaviour
         Debug.DrawRay(new Vector3(BC.bounds.center.x, BC.bounds.min.y) - new Vector3(BC.bounds.extents.x, 0), Vector2.down * (BC.bounds.extents.y / 8 + ExtraHeight), RayColor);
         Debug.DrawRay(new Vector3(BC.bounds.center.x, BC.bounds.min.y) - new Vector3(BC.bounds.extents.x, BC.bounds.extents.y / 8 + ExtraHeight), Vector2.right * BC.bounds.extents * 2, RayColor);
         return Hit.collider != null;
+    }
+
+    public void CheckIfCanJump() 
+    {
+        if (Grounded && PC.RB.velocity.y <= 0)
+        {
+            PC.JumpsAmountLeft = PC.JumpsAmount;
+        }
+        if (PC.JumpsAmountLeft <= 0)
+        {
+            CanJump = false;
+        }
+        else 
+        {
+            CanJump = true;
+        }
     }
 
     public bool IsTouchingWall()
